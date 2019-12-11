@@ -1,7 +1,7 @@
 Summary:	Python style guide checker
 Name:		python-pycodestyle
 Version:	2.5.0
-Release:	2
+Release:	3
 Group:		Development/Python
 License:	GPLv2+
 Url:		https://github.com/PyCQA/pycodestyle
