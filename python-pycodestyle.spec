@@ -1,6 +1,6 @@
 Summary:	Python style guide checker
 Name:		python-pycodestyle
-Version:	2.6.0
+Version:	2.7.0
 Release:	1
 Group:		Development/Python
 License:	GPLv2+
