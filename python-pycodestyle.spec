@@ -1,7 +1,7 @@
 Summary:	Python style guide checker
 Name:		python-pycodestyle
 Version:	2.8.0
-Release:	1
+Release:	2
 Group:		Development/Python
 License:	GPLv2+
 Url:		https://github.com/PyCQA/pycodestyle
@@ -17,7 +17,7 @@ conventions in PEP 8.
 %files
 %{_bindir}/pycodestyle
 %{py_puresitedir}/pycodestyle*
-%{py_puresitedir}/__pycache__/*
+#{py_puresitedir}/__pycache__/*
 
 %prep
 %autosetup -p1 -n pycodestyle-%{version}
