@@ -7,7 +7,7 @@ License:	GPLv2+
 Url:		https://github.com/PyCQA/pycodestyle
 Source0:	https://github.com/PyCQA/pycodestyle/archive/%{version}.tar.gz
 BuildRequires:	pkgconfig(python3)
-BuildRequires:	python3egg(setuptools)
+BuildRequires:	python%{pyver}dist(setuptools)
 BuildArch:	noarch
 
 %description
